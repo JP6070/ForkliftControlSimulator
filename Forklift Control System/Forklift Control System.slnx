@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Forklift Control System/Forklift Control System.vcxproj" Id="ce03da6f-cab8-4512-8bd7-2c8ca9c4710f" />
+</Solution>

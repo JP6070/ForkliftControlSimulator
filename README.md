@@ -14,7 +14,7 @@ The design intentionally mirrors industrial control logic rather than typical ap
 * Handle faults deterministically using priority-based latching
 * Separate inputs, control logic, plant dynamics, and outputs
 
-## The System Is Split Into Four Clear Layers:
+## The System Is Split Into Four Clear Layers
 
 ### 1. Inputs (Sensors & Operator Commands)
 The Inputs struct represents everything the controller can see in a single scan cycle: 

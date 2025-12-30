@@ -16,7 +16,7 @@ The design intentionally mirrors industrial control logic rather than typical ap
 
 ## The System Is Split Into Four Clear Layers
 
-### 1. Inputs (Sensors & Operator Commands)
+### 1. Inputs
 The Inputs struct represents everything the controller can see in a single scan cycle: 
 
 * Operator commands (cmdUp, cmdDown, cmdHold)
@@ -25,7 +25,7 @@ The Inputs struct represents everything the controller can see in a single scan 
 * Load measurement (loadKg)
 * Fault reset pulse (resetFault)
 
-### 2. Controller (Decision Logic)
+### 2. Controller
 
 The LiftController is the core of the system and acts like a PLC program:
 
@@ -41,7 +41,7 @@ This prevents unsafe behaviour such as:
 * Restarting while still moving
 * Clearing faults while emergency stop is active
 
-### 3. Plant Model (Physical Behaviour)
+### 3. Plant Model
 
 The LiftPlant simulates the physical lift mechanism:
 

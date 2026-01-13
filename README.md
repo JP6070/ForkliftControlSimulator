@@ -62,7 +62,7 @@ The Outputs struct models what the controller can control:
 
 This ensures the controller logic stays independent of how outputs are eventually applied.
 
-## Fault Handling Philosophy
+## Fault Handling
 
 Faults are:
 
